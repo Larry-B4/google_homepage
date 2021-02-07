@@ -7,7 +7,8 @@
 }
 
 p {
-    margin-right: 5px;
+    margin-right: 7px;
+    font-size: 15px;
 }
 
 .BasicButton {
@@ -17,6 +18,7 @@ p {
     margin-top: 20px;
     height: 35px;
     font-family: Poppins;
+    border-radius: 2px;
 }
 
 .GoogleLogo {
@@ -45,6 +47,7 @@ p {
     border-style: solid;
     border-radius: 50px 50px 50px 50px;
     border-color: rgb(225, 220, 220);
+    border-width: 2px;
 }
 
 .SearchBox:hover {
@@ -57,12 +60,13 @@ p {
 }
 
 .SpeakImage {
-   border-radius: 90px;
+   margin-right: 5px;
    margin-left: auto; 
    outline: none;
 }
 
 .SearchImage {
+    margin-left: 5px;
     outline: none;
 }
 
@@ -78,4 +82,13 @@ p {
 
 body {
     font-family: Poppins;
+}
+
+.Footer {
+    display: flex;
+    justify-content:space-around;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(226, 223, 226);
+    width: 100%;
 }
